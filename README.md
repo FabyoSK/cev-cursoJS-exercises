@@ -4,5 +4,7 @@
 
 Para acessar a Página Web desse Repositório [Clique aqui](https://fabyosk.github.io/cev-cursoJS-exercises/).
 
-[My Twitter](https://Twitter.com/FabyoSK)
+Minhas Redes Sociais:
+* [My Twitter](https://Twitter.com/FabyoSK)
+
 FabyoSK,
