@@ -12,7 +12,7 @@ function carregar() {
     document.body.style.background = '#E1C090'
   } else { // se a hora for entre as 18h e às 23h será usado a imagem "fotonoite.png"
     img.src = 'fotonoite.png'
-    document.body.style.background = '#515154'
+    document.body.style.background = '#2A4870'
   }
 }
 
