@@ -1,13 +1,15 @@
 alert('t')
 function carregar() {
+  const url = 'https://fskbot.herokuapp.com'
   var msg = window.document.getElementById('msg')
   var img = window.document.getElementById('imagem')
   var data = new Date()
-  var hora = 19//data.getHours()
+  var hora = data.getHours()
   msg.innerHTML = `Agora são ${hora} Horas.`
-  if (hora >= 0 && hora < 12){
-    img.src = 'fotomanha.png'
-    document.body.style.background = '#698133'
+  if (hora == 1){
+    fetch(url).then(data=>{ return data.json()}).then(res=>{ console.log(res)})
+
+
   } else if (hora >= 12 && hora <= 18) {
     img.src = 'fototarde.png'
     document.body.style.background = '#E1C090'
