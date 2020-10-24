@@ -20,5 +20,14 @@ function carregar() {
     fetch(url).then(data=>{ return data.json()}).then(res=>{ console.log(res)})
   elif (hora == 7){
     fetch(url).then(data=>{ return data.json()}).then(res=>{ console.log(res)})
+elif (hora == 8){
+    fetch(url).then(data=>{ return data.json()}).then(res=>{ console.log(res)})
+  elif (hora == 9){
+    fetch(url).then(data=>{ return data.json()}).then(res=>{ console.log(res)})
+elif (hora == 10){
+    fetch(url).then(data=>{ return data.json()}).then(res=>{ console.log(res)})
+  elif (hora == 11){
+    fetch(url).then(data=>{ return data.json()}).then(res=>{ console.log(res)})
 
 
+}
