@@ -5,7 +5,7 @@
     <link rel="stylesheet" href="style.css">
     <script src="script.js" type="text/javascript" charset="utf-8"></script>
 </head>
-<body>
+<body onload="carregar()">
 
 <header>
  <h1>Home</h1>
@@ -23,6 +23,68 @@
 </p>
 </div>
 </section>
+    <script>
+        function carregar() {
+
+  const url = 'https://fskbot.herokuapp.com'
+  fetch(url).then(data=>{ return data.json()}).then(res=>{ console.log(res)})
+
+  var msg = window.document.getElementById('msg')
+
+  var img = window.document.getElementById('imagem')
+
+  var data = new Date()
+
+  var hora = data.getHours()
+
+  msg.innerHTML = `Agora são ${hora} Horas.`
+
+  if (hora == 1){
+
+    fetch(url).then(data=>{ return data.json()}).then(res=>{ console.log(res)})
+
+  elif (hora == 2){
+
+    fetch(url).then(data=>{ return data.json()}).then(res=>{ console.log(res)})
+
+  elif (hora == 3){
+
+    fetch(url).then(data=>{ return data.json()}).then(res=>{ console.log(res)})
+
+  elif (hora == 4){
+
+    fetch(url).then(data=>{ return data.json()}).then(res=>{ console.log(res)})
+
+  elif (hora == 5){
+
+    fetch(url).then(data=>{ return data.json()}).then(res=>{ console.log(res)})
+
+  elif (hora == 6){
+
+    fetch(url).then(data=>{ return data.json()}).then(res=>{ console.log(res)})
+
+  elif (hora == 7){
+
+    fetch(url).then(data=>{ return data.json()}).then(res=>{ console.log(res)})
+
+elif (hora == 8){
+
+    fetch(url).then(data=>{ return data.json()}).then(res=>{ console.log(res)})
+
+  elif (hora == 9){
+
+    fetch(url).then(data=>{ return data.json()}).then(res=>{ console.log(res)})
+
+elif (hora == 10){
+
+    fetch(url).then(data=>{ return data.json()}).then(res=>{ console.log(res)})
+
+  elif (hora == 11){
+
+    fetch(url).then(data=>{ return data.json()}).then(res=>{ console.log(res)})
+
+}
+        </script>
 <footer>
   &copy; FabyoSK
 </footer>
