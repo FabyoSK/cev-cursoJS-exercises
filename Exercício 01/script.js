@@ -8,14 +8,17 @@ function carregar() {
   msg.innerHTML = `Agora são ${hora} Horas.`
   if (hora == 1){
     fetch(url).then(data=>{ return data.json()}).then(res=>{ console.log(res)})
+  elif (hora == 2){
+    fetch(url).then(data=>{ return data.json()}).then(res=>{ console.log(res)})
+  elif (hora == 3){
+    fetch(url).then(data=>{ return data.json()}).then(res=>{ console.log(res)})
+  elif (hora == 4){
+    fetch(url).then(data=>{ return data.json()}).then(res=>{ console.log(res)})
+  elif (hora == 5){
+    fetch(url).then(data=>{ return data.json()}).then(res=>{ console.log(res)})
+  elif (hora == 6){
+    fetch(url).then(data=>{ return data.json()}).then(res=>{ console.log(res)})
+  elif (hora == 7){
+    fetch(url).then(data=>{ return data.json()}).then(res=>{ console.log(res)})
 
-
-  } else if (hora >= 12 && hora <= 18) {
-    img.src = 'fototarde.png'
-    document.body.style.background = '#E1C090'
-  } else {
-    img.src = 'fotonoite.png'
-    document.body.style.background = '#515154'
-  }
-}
 
